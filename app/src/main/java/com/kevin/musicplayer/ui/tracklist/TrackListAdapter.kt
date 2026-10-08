@@ -58,14 +58,9 @@ class TrackListAdapter(
         notifyDataSetChanged()
     }
 
-//	override fun getSectionTitle(position: Int): String? {
-//		val title = trackList[position].description.title?.toString()
-//		return if (title != null) title.toUpperCase(Locale.getDefault())[0].toString() else null
-//	}
-
     override fun getSectionText(position: Int): CharSequence {
         val title = trackList[position].description.title?.toString()
-        return if (title != null) title.toUpperCase(Locale.getDefault())[0].toString() else ""
+        return if (title != null) title.uppercase(Locale.getDefault())[0].toString() else ""
     }
 
     class ViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
