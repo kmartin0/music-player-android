@@ -1,28 +1,34 @@
 # Music Player Android
 
-Basic Music player Application for Android made during the course Mobile Application Development.
+Native Android music player application created during the Mobile Application Development course.
 
 ## Features
 
-- Display audio files on the users' device displaying artis and album name and the album cover.
-- Ability to play/pause audio.
-- Background displays blurred image of the current track album cover.
-- Ability to play next/previous track.
-- Notification with media controls while playing a track.
-- Plays/pauses when another application requests to play audio.
-- Pauses when disconnected audio device (e.g. disconnecting from bluetooth headset).
+- Display audio files from the user's device, including artist, album and album artwork.
+- Play and pause audio.
+- Play the next or previous track.
+- Display a blurred version of the current album artwork in the player background.
+- Media notification with playback controls.
+- Respond to audio focus changes when another application requests audio playback.
+- Pause playback when an audio device is disconnected.
+- Display track lyrics.
 
-## Tech used
+## Technical Overview
 
 - Kotlin.
-- MVVM using Architecture Components.
-- Index audio files on device using MediaStore.
-- Use of MediaBrowserService, MediaSession, MediaController.
+- MVVM architecture using Android Architecture Components.
+- Audio file indexing using MediaStore.
+- Background audio playback using `MediaBrowserService`.
+- Media playback integration using `MediaSession` and `MediaController`.
 
 ## Screenshots
 
-![Home empty queue screenshot](https://github.com/kmartin0/assets/blob/master/android-music-player/android-music-player_empty_queue.png?raw=true)
-![Home player playing screenshot](https://github.com/kmartin0/assets/blob/master/android-music-player/android-music-player_home_playing.png?raw=true)
-![Player screenshot](https://github.com/kmartin0/assets/blob/master/android-music-player/android-music-player_player.png?raw=true)
-![Lyrics screenshot](https://github.com/kmartin0/assets/blob/master/android-music-player/android-music-player_lyrics.png?raw=true)
-![Widget screenshot](https://github.com/kmartin0/assets/blob/master/android-music-player/android-music-player_widget.png?raw=true)
+<img src="https://github.com/kmartin0/assets/blob/master/music-player-android/android-music-player_home.png?raw=true" alt="Home screenshot" width="300" />
+
+<img src="https://github.com/kmartin0/assets/blob/master/music-player-android/android-music-player-home_playing.png?raw=true" alt="Home playing screenshot" width="300" />
+
+<img src="https://github.com/kmartin0/assets/blob/master/music-player-android/android-music-player_playing.png?raw=true" alt="Player screenshot" width="300" />
+
+<img src="https://github.com/kmartin0/assets/blob/master/music-player-android/android-music-player_lyrics.png?raw=true" alt="Lyrics screenshot" width="300" />
+
+<img src="https://github.com/kmartin0/assets/blob/master/music-player-android/android-music-player-notification.png?raw=true" alt="Media notification screenshot" width="300" />
