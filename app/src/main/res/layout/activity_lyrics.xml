@@ -6,7 +6,7 @@
 
         <variable
             name="viewModel"
-            type="com.kevin.musicplayer.ui.lyrics.LyricsViewModel" />
+            type="nl.kmartin.musicplayer.ui.lyrics.LyricsViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

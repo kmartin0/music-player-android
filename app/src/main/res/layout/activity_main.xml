@@ -28,7 +28,7 @@
 
             <androidx.fragment.app.FragmentContainerView
                 android:id="@+id/musicPlayerFragment"
-                android:name="com.kevin.musicplayer.ui.player.MusicPlayerFragment"
+                android:name="nl.kmartin.musicplayer.ui.player.MusicPlayerFragment"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:clickable="true"
@@ -41,7 +41,7 @@
 
         <variable
             name="viewModel"
-            type="com.kevin.musicplayer.ui.main.MainViewModel" />
+            type="nl.kmartin.musicplayer.ui.main.MainViewModel" />
 
     </data>
 </layout>

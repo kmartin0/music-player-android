@@ -8,9 +8,11 @@ plugins {
 }
 
 android {
+    namespace 'nl.kmartin.musicplayer'
+
     compileSdkVersion 35
     defaultConfig {
-        applicationId "com.kevin.musicplayer"
+        applicationId "nl.kmartin.musicplayer"
         minSdkVersion 29
         targetSdkVersion 35
         versionCode 1
@@ -35,9 +37,6 @@ android {
         renderscriptTargetApi 19
         renderscriptSupportModeEnabled true
     }
-
-    namespace 'com.kevin.musicplayer'
-
 }
 
 kotlin {

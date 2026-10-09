@@ -117,6 +117,6 @@
 
         <variable
             name="viewModel"
-            type="com.kevin.musicplayer.ui.player.MusicPlayerViewModel" />
+            type="nl.kmartin.musicplayer.ui.player.MusicPlayerViewModel" />
     </data>
 </layout>
